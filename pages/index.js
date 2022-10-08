@@ -89,7 +89,7 @@ export default function Home() {
               <div onClick={e=>focusImage(e)} className="img_active proj_img" style={{backgroundImage:'url('+(isLandscape ? proj.thumbnail_o : proj.thumbnail_v)+')'}}></div>
               <Link href={'/'+proj.url}>
                 <a className="proj_desc py-3">
-                  <p className="proj_name ml-3">{proj.name}  <svg data-testid="geist-icon" fill="none" height="41" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 25 27" width="50" style="color:var(--geist-foreground)"><path d="M13 17l5-5-5-5"></path><path d="M6 17l5-5-5-5"></path></svg></p>
+                  <p className="proj_name ml-3">{proj.name}  <svg data-testid="geist-icon" fill="none" height="41" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 25 27" width="50" style="color:var(--geist-foreground)"><path d="M13 17l5-5-5-5"></path><path d="M6 17l5-5-5-5"></path></svg></p>
                   <img className="proj_arrow mr-3" src="images/arrow-right.svg" alt=""/>
                 </a>
               </Link>
